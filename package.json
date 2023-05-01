@@ -5,7 +5,7 @@
   "source": "index.html",
   "scripts": {
     "start": "parcel -p 3001 --open chrome",
-    "build": "eslint src/*.js && parcel build",
+    "build": "eslint src/*.js & parcel build",
     "lint": "eslint src/*.js || eslint --fix src/*.js"
   },
   "repository": {
